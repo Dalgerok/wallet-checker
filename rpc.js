@@ -11,6 +11,7 @@ export const rpcs = {
     'Celo': 'https://forno.celo.org',
     'Klaytn': 'https://1rpc.io/klay',
     'Fantom': 'https://rpcapi.fantom.network',
+    'Neon': 'https://neon-mainnet.everstake.one',
     'Moonbeam': 'https://rpc.api.moonbeam.network',
     'Moonriver': 'https://rpc.api.moonriver.moonbeam.network',
 
