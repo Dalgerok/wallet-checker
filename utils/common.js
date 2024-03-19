@@ -80,6 +80,12 @@ export function getNativeToken(network) {
         case 'BSC':
             token = 'BNB'
             break
+        case 'neon':
+            token = 'NEON'
+            break
+        case 'Neon':
+            token = 'NEON'
+            break
         case 'opBNB':
             token = 'BNB'
             break
@@ -310,6 +316,10 @@ export const chooiceNetwork = async () => {
                     value: "BSC",
                 },
                 {
+                    name: "Neon",
+                    value: "Neon",
+                },
+                {
                     name: "opBNB",
                     value: "opBNB",
                 },
@@ -382,6 +392,10 @@ export const evmNetwork = async () => {
                 {
                     name: "BSC",
                     value: "bsc",
+                },
+                {
+                    name: "Neon",
+                    value: "neon",
                 }
             ],
             default: "web",
